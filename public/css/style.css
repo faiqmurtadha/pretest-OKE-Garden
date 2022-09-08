@@ -1,0 +1,72 @@
+* {
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+    color: #495057;
+}
+body {
+    background-color: #f8f9fa;
+}
+.logo-profil{
+    object-fit: cover;
+}
+.title-desc{
+    font-size: small;
+    color: rgba(73, 80, 87, 0.8);
+}
+.catatan-tema .card{
+    background-color:wheat;
+    border-color: wheat;
+}
+.card-img-top{
+    max-height: 200px;
+    object-fit: cover;
+}
+.pilih-tema .card{
+    min-height: 410px;
+}
+.btn-pilih-tema, .btn-tambah-alamat{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: darkgreen;
+}
+.btn-pilih-tema:hover, .btn-tambah-alamat:hover{
+    color:forestgreen;
+}
+.btn-tema:hover{
+    border-color:transparent;
+}
+.btn-tema:focus, .btn-tema .active{
+    border-color: darkgreen;
+    border-radius: 3px;
+}
+.estimasi{
+    margin-bottom: 15%;
+}
+.card-alamat{
+    border-color: darkgreen;
+}
+.btn-waktu{
+    border-color: gray;
+    width: 100%;
+    color:dodgerblue;
+    font-weight: bold;
+}
+.btn-waktu:focus, .btn-waktu .active{
+    background-color:lightskyblue;
+    border-color: lightskyblue;
+    color:royalblue;
+}
+.datepicker, .table-condensed{
+    min-width: 400px;
+    min-height: 400px;
+}
+.datepicker .dow{
+    padding-top: 10%;
+}
+.datepicker .active{
+    border-radius: 50% !important;
+    background-color:lightskyblue !important;
+}
+.dropdown-toggle-profil::after{
+    content: none;
+}
